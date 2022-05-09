@@ -1,0 +1,84 @@
+#phonecase {
+    border-radius: 35px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    height: 700px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#buy {
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+#zt {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    background-color: #000;
+    color: #fff;
+    z-index: 999;
+}
+
+.fa-house {
+    margin-top: 20px;
+    margin-left: 135px;
+
+}
+
+.fa-cart-shopping {
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.fa-user {
+    margin-top: 20px;
+    margin-left: 700px;
+}
+
+@media (max-width:376px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    #phonecase {
+        border-radius: 35px;
+        width: 50%;
+        height: 300px;
+        border: #000 1px solid;
+    }
+
+    #zt {
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        bottom: 0px;
+        background-color: #000;
+        color: #fff;
+        z-index: 999;
+    }
+
+    .fa-house {
+        margin-top: 20px;
+        margin-left: 35px;
+
+    }
+
+    .fa-cart-shopping {
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+
+    .fa-user {
+        margin-top: 20px;
+        margin-left: 140px;
+    }
+}

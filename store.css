@@ -1,0 +1,169 @@
+#nav li {
+    display: inline-block;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+#nav li a:hover {
+    background: none;
+}
+
+#nav {
+    background: #eee;
+}
+
+.toggle-button {
+    display: none;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.showcase {
+    background: url(imgs/01.jpeg) 50% 50%;
+    background-size: cover;
+    margin-bottom: 20px;
+    padding-top: 46%;
+}
+
+.title {
+    display: none;
+}
+
+body {
+    background-color: #000;
+}
+
+#phonecase {
+    border-radius: 35px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    height: 700px;
+}
+
+.centerfont {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+#footer {
+    color: #fff;
+}
+
+#footer li {
+    display: flex;
+    padding: 7px 15px;
+    text-decoration: none;
+
+}
+
+.btm-bt {
+    display: none;
+}
+
+@media (max-width:376px) {
+    .toggle-button {
+        display: inline-block;
+        font-size: 25px;
+        text-decoration: none;
+        background: #000;
+        color: #fff;
+        padding: 5px 10px;
+        position: absolute;
+        right: 10px;
+        top: 16px;
+    }
+
+    #nav .close {
+        display: none;
+    }
+
+    #nav:target .close {
+        display: inline-block;
+    }
+
+    #nav {
+        display: none;
+        background-color: #000;
+    }
+
+    #nav:target {
+        display: block;
+        position: absolute;
+        top: 0;
+        padding-top: 43px;
+        width: 100%;
+    }
+
+    #nav:target ul {
+        background: #000;
+    }
+
+    #nav:target li,
+    #nav:target li a {
+        display: block;
+        color: #eee;
+        text-align: left;
+    }
+
+    #nav:target li a:hover {
+        background: #3b3b3b;
+    }
+
+    .title {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    #phonecase {
+        border-radius: 35px;
+        width: 100%;
+        height: 400px;
+    }
+
+    #f1:target li,
+    #f1:target li a,
+    #f2:target li,
+    #f2:target li a {
+        display: inline;
+        color: #eee;
+        text-align: left;
+    }
+
+    #f1:target li a:hover,
+    #f2:target li a:hover {
+        background: #3b3b3b;
+    }
+
+    #f1 {
+        display: none;
+    }
+
+    #f2 {
+        display: none;
+    }
+
+    #f1:target {
+        display: inline;
+
+    }
+
+    #f2:target {
+        display: inline;
+    }
+
+    .btm-bt {
+        display: block;
+    }
+}

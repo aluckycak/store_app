@@ -1,0 +1,55 @@
+#zt {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    background-color: #000;
+    color: #fff;
+    z-index: 999;
+    left: 0px;
+}
+
+.fa-house {
+    margin-top: 20px;
+    margin-left: 135px;
+
+}
+
+.fa-cart-shopping {
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.fa-user {
+    margin-top: 20px;
+    margin-left: 700px;
+}
+
+@media (max-width:376px) {
+    #zt {
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        background-color: #000;
+        color: #fff;
+        z-index: 999;
+    }
+
+    .fa-house {
+        margin-top: 20px;
+        margin-left: 35px;
+
+    }
+
+    .fa-cart-shopping {
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+
+    .fa-user {
+        margin-top: 20px;
+        margin-left: 140px;
+    }
+}
